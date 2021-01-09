@@ -15,7 +15,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 jar {
-    baseName = 'auth2-java'
+    baseName = 'reviewfromyou-online'
     version =  '0.1.0'
 }
 
@@ -29,6 +29,7 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.3.2.RELEASE'
     compile("org.springframework.boot:spring-boot-devtools")
     compile('org.codehaus.jackson:jackson-core-asl:1.9.13')
     compile('org.codehaus.jackson:jackson-mapper-asl:1.9.13')

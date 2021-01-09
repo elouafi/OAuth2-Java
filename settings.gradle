@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'OAuth2-Java'
+rootProject.name = 'reviewfromyou-online'

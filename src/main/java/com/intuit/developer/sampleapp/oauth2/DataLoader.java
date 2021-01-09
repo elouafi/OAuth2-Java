@@ -27,14 +27,14 @@ import com.intuit.developer.sampleapp.oauth2.helper.HttpHelper;
 public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
 	
 	@Autowired
-    private Environment env;
-	
+	private Environment env;
+
 	@Autowired
-    public OAuth2Configuration oAuth2Configuration;
-	
+	public OAuth2Configuration oAuth2Configuration;
+
 	@Autowired
 	public HttpHelper httpHelper;
-	
+
 	private static final HttpClient CLIENT = HttpClientBuilder.create().build();
 	private static final Logger logger = Logger.getLogger(DataLoader.class);
 
