@@ -17,10 +17,6 @@ import com.intuit.developer.sampleapp.oauth2.domain.OAuth2Configuration;
 import com.intuit.developer.sampleapp.oauth2.helper.HttpHelper;
 import com.intuit.developer.sampleapp.oauth2.service.ValidationService;
 
-/**
- * @author dderose
- *
- */
 @Controller
 public class OAuth2Controller {
 	

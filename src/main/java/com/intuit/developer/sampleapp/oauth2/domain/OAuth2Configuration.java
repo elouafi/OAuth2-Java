@@ -5,10 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 
-/**
- * @author dderose
- *
- */
 @Configuration
 @PropertySource(value="classpath:/application.properties", ignoreResourceNotFound=true)
 public class OAuth2Configuration {

@@ -20,10 +20,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.intuit.developer.sampleapp.oauth2.domain.OAuth2Configuration;
 import com.intuit.developer.sampleapp.oauth2.helper.HttpHelper;
 
-/**
- * @author dderose
- *
- */
 @Controller
 public class RevokeTokenController {
     

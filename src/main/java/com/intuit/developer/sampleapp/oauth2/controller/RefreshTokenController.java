@@ -14,10 +14,6 @@ import com.intuit.developer.sampleapp.oauth2.domain.OAuth2Configuration;
 import com.intuit.developer.sampleapp.oauth2.helper.HttpHelper;
 import com.intuit.developer.sampleapp.oauth2.service.RefreshTokenService;
 
-/**
- * @author dderose
- *
- */
 @Controller
 public class RefreshTokenController {
 	
